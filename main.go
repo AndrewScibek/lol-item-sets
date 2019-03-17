@@ -1,9 +1,9 @@
 package main
 
 import (
-//"{pathToYourApp}/cmd"
+	"github.com/AndrewScibek/lol-item-sets/cmd"
 )
 
 func main() {
-	//cmd.Execute()
+	cmd.Execute()
 }
