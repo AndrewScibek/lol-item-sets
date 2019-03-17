@@ -14,7 +14,7 @@ import (
 
 var downloadURL = "https://lol-item-sets-generator.org/downloads/sets-from-app"
 var importCmd = &cobra.Command{
-	Use:   "import",
+	Use:   "import [Champions Directory]",
 	Short: "",
 	Long:  ``,
 	Args:  cobra.ExactArgs(1),

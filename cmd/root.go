@@ -10,9 +10,6 @@ var rootCmd = &cobra.Command{
 	Use:   "lol-items",
 	Short: "",
 	Long:  ``,
-	PersistentPreRun: func(cmd *cobra.Command, args []string) {
-
-	},
 }
 
 //Execute is the entrypoint of cmd calls
