@@ -6,3 +6,5 @@ Run using command `go run main.go import <PATH-TO-CHAMPION-CONFIG>` <br>
 ex. `go run main.go import C:\\Riot\ Games\\League\ of\ Legends\\Config\Champions` <br>
 
 You can delete all item sets by running `go run main.go delete <PATH-TO-CHAMPION-CONFIG>` <br>
+
+If you download the executable then replace `go run main.go` with `./executable-name`
